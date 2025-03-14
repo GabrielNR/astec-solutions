@@ -20,7 +20,7 @@ type SignInForm = z.infer<typeof signInForm>
 // Função Principal
 export function SignIn() {
 	const {
-    register,
+    // register,
     handleSubmit,
     formState: { isSubmitting },
   } = useForm<SignInForm>()
