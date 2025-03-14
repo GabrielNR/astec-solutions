@@ -17,7 +17,7 @@ export function Header() {
             <Home className="h-4 w-4" />
             Conferir Status
           </NavLink>
-          <NavLink to="/orders">
+          <NavLink to="/services">
             <MonitorSmartphone className="h-4 w-4" />
             Solicitar Serviço
           </NavLink>
