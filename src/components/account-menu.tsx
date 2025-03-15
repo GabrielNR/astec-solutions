@@ -25,10 +25,11 @@ export function AccountMenu() {
 
       <DropdownMenuContent align="end" className="w-56">
         <DropdownMenuLabel className="flex flex-col">
-          <span>Gabriel Nascimento</span>
+          <span>William Joni</span>
           <span className="text-xs font-normal text-muted-foreground">
             astec@gmail.com
           </span>
+          
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
@@ -36,8 +37,8 @@ export function AccountMenu() {
           <span>Perfil da Assistencia</span>
         </DropdownMenuItem>
         <DropdownMenuItem className="text-rose-500 dark:text-rose-400">
-          <LogOut className="mr-2 h-4 w-4" />
-          <span>Sair</span>
+          {/* <LogOut className="mr-2 h-4 w-4" /> */}
+          {/* <span>Sair</span> */}
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

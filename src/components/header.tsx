@@ -14,12 +14,12 @@ export function Header() {
 
         <nav className="flex items-center space-x-4 lg:space-x-6">
           <NavLink to="/">
-            <Home className="h-4 w-4" />
-            Conferir Status
-          </NavLink>
-          <NavLink to="/services">
             <MonitorSmartphone className="h-4 w-4" />
             Solicitar Serviço
+          </NavLink>
+          <NavLink to="/status">
+            <Home className="h-4 w-4" />
+            Conferir Status
           </NavLink>
         </nav>
 
