@@ -17,8 +17,8 @@ export function Service() {
     <>
       <title>Dashboard | Astec Solutions</title>
 
-      <div className="grid grid-cols-2 antialiased">
-      <div className="h-full p-4 pt-20 text flex flex-col justify-between">
+      <div className="grid grid-cols-1 antialiased md:grid-cols-2">
+      <div className="h-full p-4 md:pt-20 text flex flex-col justify-between">
         <div>
           <div className="flex flex-col gap-3 text-foreground">
             <h1 className="font-bold text-5xl mt-2">Seja bem vindo, ao nosso HelpDesk!</h1>
@@ -42,7 +42,7 @@ export function Service() {
         
       </div>
 
-      <div className="min-h-[654px] flex flex-col relative rounded-2xl mt-16 p-10">
+      <div className="min-h-[654px] flex flex-col relative rounded-2xl md:mt-16 md:p-10 ">
         <span className="font-bold text-xl">Solicite um Serviço</span>
 
         <div className="space-y-2 mt-4">
