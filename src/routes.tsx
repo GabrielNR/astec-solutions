@@ -7,6 +7,7 @@ import { AuthLayout } from './pages/_layouts/auth'
 import { SignUp } from './pages/auth/sign-up'
 import { NotFound } from './pages/404'
 import { Status } from './pages/app/status/status'
+import { Dashboard } from './pages/app/dashboard/dashboard'
 
 export const router = createBrowserRouter([
 
@@ -17,6 +18,7 @@ export const router = createBrowserRouter([
     children: [
       { path: '/', element: <Service /> },
       { path: '/status', element: <Status /> },
+      { path: '/dashboard', element: <Dashboard /> },
     ]
   },
   {
