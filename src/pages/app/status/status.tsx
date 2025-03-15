@@ -14,6 +14,8 @@ import { Textarea } from "src/components/ui/textarea";
 export function Status() {
   const [finished, setFinished] = useState(false)
 
+  setFinished
+
   return (
     <>
       <title>Service | Astec Solutions</title>
