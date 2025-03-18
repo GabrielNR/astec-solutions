@@ -1,14 +1,16 @@
 import LogoAstec from "../../../assets/logo_astec.png"
 import Setas from "../../../assets/CaretDoubleDown.svg"
-import './header.css'
+
+// import './header.css'
+
 
 export function Home() {
   return (
     <>
       <div>
       <header /*loading="lazy"*/ id="info" className="container">
-        <header>
-          <div className="avatar">
+        <header className="flex flex-col items-center ">
+          <div className="relative w-[200px] h-[200px]">
             <img loading="lazy"
               src={LogoAstec}
               alt="homem em um fundo urbano"
@@ -16,9 +18,9 @@ export function Home() {
           </div>
 
 
-          <h1>Astec Solutions</h1>
+          <h1 className="text-5xl mb-8 font-bold" >Astec Solutions</h1>
 
-          <p className="tx-sm">
+          <p className="text-xl text-slate-400">
             Transformo necessidades em aplicações reais, evolventes e funcionais.
             Desenvolvo sistemas através da minha paixão pela tecnologia,
             contribuindo com soluções inovadoras e eficazes para desafios
@@ -28,9 +30,9 @@ export function Home() {
 
       
 
-        <button id="scroll">
+        {/* <button id="scroll">
           <img loading="lazy" id="arrow" src={Setas} alt="duas setas" />
-        </button>
+        </button> */}
       </header>
 
       {/* <main>
