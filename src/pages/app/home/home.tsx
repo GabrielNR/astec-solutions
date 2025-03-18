@@ -20,7 +20,7 @@ export function Home() {
 
           <h1 className="text-5xl mb-8 font-bold" >Astec Solutions</h1>
 
-          <p className="text-xl text-slate-400">
+          <p className="text-xl text-muted-foreground">
             Transformo necessidades em aplicações reais, evolventes e funcionais.
             Desenvolvo sistemas através da minha paixão pela tecnologia,
             contribuindo com soluções inovadoras e eficazes para desafios
