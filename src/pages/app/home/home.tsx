@@ -1,5 +1,5 @@
 import LogoAstec from "../../../assets/logo_astec.png"
-import Setas from "../../../assets/CaretDoubleDown.svg"
+// import Setas from "../../../assets/CaretDoubleDown.svg"
 
 // import './header.css'
 
