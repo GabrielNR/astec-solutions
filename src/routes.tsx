@@ -8,6 +8,7 @@ import { NotFound } from './pages/404'
 import { Status } from './pages/app/status/status'
 import { Dashboard } from './pages/app/dashboard/dashboard'
 import { Home } from './pages/app/home/home'
+import { Service } from './pages/app/service/service'
 
 export const router = createBrowserRouter([
 
@@ -19,6 +20,7 @@ export const router = createBrowserRouter([
       { path: '/', element: <Home /> },
       { path: '/status', element: <Status /> },
       { path: '/dashboard', element: <Dashboard /> },
+      { path: '/services', element: <Service /> },
     ]
   },
   {
